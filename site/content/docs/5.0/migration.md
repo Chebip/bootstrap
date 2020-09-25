@@ -15,13 +15,17 @@ toc: true
   - Changed the Sass file from `scss/helpers/_screenreaders.scss` to `scss/helpers/_visually-hidden.scss`
   - Renamed `.sr-only` and `.sr-only-focusable` to `.visually-hidden` and `.visually-hidden-focusable`
   - Renamed `sr-only()` and `sr-only-focusable()` mixins to `visually-hidden()` and `visually-hidden-focusable()`.
-- Add border width utility, see [31484](https://github.com/twbs/bootstrap/pull/31484)
+- Add border width utility, see [#31484](https://github.com/twbs/bootstrap/pull/31484)
 
 ### Docs
 
 - Renamed "Screen readers" helper page to "Visually hidden", and filename to `visually-hidden`
 - Renamed "Checks" page to "Checks & radios", and filename to `checks-radios`
 - Improved documentation of check/radio powered button groups
+
+### Layout
+
+- Container horizontal padding updated to match the gutter size of `.row`s.
 
 ### Reboot
 
@@ -59,6 +63,10 @@ toc: true
 - Close buttons now use a `background-image` (embedded SVG) instead of a `&times;` in the HTML, allowing for easier customization without the need to touch your markup.
 - Added new variables to better control the customization.
 - Added new `.btn-close-white` variant that uses `backdrop-filter: invert(1)` to enable higher contrast dismiss icons against darker backgrounds.
+
+#### Dropdowns
+
+- Added new `.dropdown-menu-dark` variant and associated variables for on-demand dark dropdowns.
 
 #### Navs
 
