@@ -40,7 +40,7 @@ toc: true
 
 ### Components
 
-### Badges
+#### Badges
 
 - Increased default padding for badges from `.25em`/`.5em` to `.35em`/`.65em`.
 
