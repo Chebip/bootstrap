@@ -48,6 +48,11 @@ toc: true
 
 - Disabled states of buttons are easier to customize thanks to additional arguments in the `button-variant()` mixin. [See #30639.](https://github.com/twbs/bootstrap/pull/30639)
 
+#### Carousel
+
+- Replaced chevron icons for carousel controls with new SVGs from [Bootstrap Icons](http://icons.getbootstrap.com).
+- Added new `.carousel-dark` variant for dark text, controls, and indicators (great for lighter backgrounds).
+
 #### Close button
 
 - Renamed `.close` to `.btn-close` for a less generic name.
